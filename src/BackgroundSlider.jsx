@@ -31,7 +31,7 @@ function BackgroundSlider() {
       <div className="md:pb-[90px]" style={bgImageStyle}>
         <div className="pl-[8%]  pb-10 text-white pt-[300px] md:pl-[11%]">
           <div className="">
-            <div className=" md:text-7xl md:max-w-[500px] text-5xl">
+            <div className="md:text-7xl md:max-w-[500px] text-2xl lg:text-5x">
               <h1 className="font-extrabold">
                 {imageSlide[currentState].title}
               </h1>
@@ -78,7 +78,7 @@ function BackgroundSlider() {
               <CountUp
               start={0}
               end={245}
-              duration={3.75}>
+              duration={25.75}>
               </CountUp>+</h1>
               <p>complete project</p>
             </div>
@@ -87,7 +87,7 @@ function BackgroundSlider() {
               <CountUp
               start={0}
               end={80}
-              duration={2.75}>
+              duration={35.75}>
               </CountUp>%</h1>
               <p>success rate</p>
             </div>
@@ -96,7 +96,7 @@ function BackgroundSlider() {
               <CountUp
               start={0}
               end={46}
-              duration={2.75}>
+              duration={35.75}>
               </CountUp>
               +</h1>
               <p>country covered</p>

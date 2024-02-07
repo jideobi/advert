@@ -5,12 +5,12 @@ import Sml2 from "./assets/advert1.jpeg";
 
 const Service = () => {
   return (
-    <div className="my-11">
+    <div  className="mt-11">
       <div className="text-center">
-        <p className="text-yellow-800 bold text-1xl md:text-2xl pb-4">
+        <p name="service" className="text-yellow-800 bold text-1xl md:text-2xl pb-4">
           what we do
         </p>
-        <h1 className="font-extrabold text-2xl lg:text-6xl">OUR SERVICES</h1>
+        <h1  className="font-extrabold text-2xl lg:text-6xl">OUR SERVICES</h1>
       </div>
 
       <div class="max-w-6xl  px-5 mx-auto mt-32 text-center">
@@ -45,29 +45,21 @@ const Service = () => {
         </div>
       </div>
 
-      <div className=" lg:grid lg:grid-cols-2 ">
-        <div className="p-28" style={{ backgroundImage: `url(${Sml2})` }}>
-          <h1 className="  bg-gradient-to-r from-green-200 from-10% via-sky-500 via-30% to-emerald-900 to-90% text-center lg:ml-[17%] font-extrabold text-2xl lg:text-4xl p-8 text-[rgb(251,251,251)]">
+      <div className="bg-[hsl(240,45%,15%)] lg:grid lg:grid-cols-2 ">
+        <div className="p-20" style={{ backgroundImage: `url(${Sml2})`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+          <h1 className=" bg-[hsl(32,45%,15%)]  text-center lg:ml-[17%] font-extrabold text-1xl lg:text-4xl mt-10 p-2 lg:p-8 text-[rgb(251,251,251)]">
             EXPERT OUT OF SOFTWARE AGENCY
           </h1>
         </div>
 
-        <div class="">
+        <div class="pb-20">
           <div>
-            <p className=" py-[130px]  text-white mx-[130px] font-bold text-3xl">
+            <p className=" pt-16 mx-4 lg:py-[130px]  text-white lg:mx-[130px] font-bold lg:text-3xl justify-items-center text-center">
               Providing expert assistance with billboard advertising for 25
               years. quickly present you
             </p>
           </div>
-          <div className="exp-item">
-            <div className="exp-info">
-              <p>Strategy </p>
-              <p>99%</p>
-            </div>
-            <div className="progress-line" data-percent="70%">
-            <span style={{width: "99%"}}></span>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
